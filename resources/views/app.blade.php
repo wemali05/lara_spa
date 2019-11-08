@@ -25,16 +25,16 @@
                         <h5 class="uppercase font-bold mb-4">The Brand</h5 class="uppercase font-bold mb-4">
                         <ul>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/">Logo</router-link>
+                                <router-link class="text-black" to="/" exact>Logo</router-link>
                             </li>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/about">Logo Symbol</router-link>
+                                <router-link class="text-black" to="/logo-symbol">Logo Symbol</router-link>
                             </li>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/about">Colors</router-link>
+                                <router-link class="text-black" to="/colors">Colors</router-link>
                             </li>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/about">Typography</router-link>
+                                <router-link class="text-black" to="/typography">Typography</router-link>
                             </li>
                         </ul>
                     </section>
@@ -42,16 +42,17 @@
                         <h5 class="uppercase font-bold mb-4">Doodles</h5 class="uppercase font-bold mb-4">
                         <ul>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/">Mascot</router-link>
+                                <router-link class="text-black" to="/mascot">Mascot</router-link>
                             </li>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/about">Illustrations</router-link>
+                                <router-link class="text-black" to="/illustrations">Illustrations</router-link>
                             </li>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/about">Loaders and Animation</router-link>
+                                <router-link class="text-black" to="/loaders-and-animation">Loaders and Animation
+                                </router-link>
                             </li>
                             <li class="text-sm mb-4 leading-loose">
-                                <router-link class="text-black" to="/about">Wallpapers</router-link>
+                                <router-link class="text-black" to="/wallpapers">Wallpapers</router-link>
                             </li>
                         </ul>
                     </section>
