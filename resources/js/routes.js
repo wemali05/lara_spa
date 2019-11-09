@@ -6,6 +6,7 @@ import LoadersAndAnimation from './components/LoadersAndAnimation';
 import Mascot from './components/Mascot';
 import Wallpapers from './components/Wallpapers';
 import Typography from './components/Typography';
+import NotFound from './components/NotFound';
 
 export default {
     mode: 'history',
@@ -13,6 +14,10 @@ export default {
     linkActiveClass: 'font-bold',
 
     routes: [{
+            path: '*',
+            component: NotFound
+        },
+        {
             path: '/',
             component: Logo
         },
