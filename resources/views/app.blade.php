@@ -15,14 +15,19 @@
 
 <body class="font-sans">
     <div id="app">
-        <div class="container mx-auto">
-            <header class="py-6 mb-8">
-                <h1>laravel</h1>
-            </header>
+
+        <header class="py-6 px-8 mb-8" style="background: url('/images/splash.svg') 0 15px no-repeat;">
+            <h1>
+                <img src="/images/logo.svg" alt="lara_spa">
+            </h1>
+        </header>
+        <div class="container px-8">
+
             <main class="flex">
-                <aside class="w-1/5">
-                    <section class="mb-8">
-                        <h5 class="uppercase font-bold mb-4">The Brand</h5 class="uppercase font-bold mb-4">
+                <aside class="w-1/5 pt-8">
+                    <section class="mb-10">
+                        <h5 class="uppercase font-bold mb-4 text-base md-5">The Brand</h5
+                            class="uppercase font-bold mb-4 ">
                         <ul>
                             <li class="text-sm mb-4 leading-loose">
                                 <router-link class="text-black" to="/" exact>Logo</router-link>
@@ -39,7 +44,7 @@
                         </ul>
                     </section>
                     <section class="mb-6">
-                        <h5 class="uppercase font-bold mb-4">Doodles</h5 class="uppercase font-bold mb-4">
+                        <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5 class="uppercase font-bold mb-4 ">
                         <ul>
                             <li class="text-sm mb-4 leading-loose">
                                 <router-link class="text-black" to="/mascot">Mascot</router-link>
